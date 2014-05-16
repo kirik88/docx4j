@@ -353,7 +353,7 @@ public abstract class BinaryPartAbstractImage extends BinaryPart {
 
 				// Debug ... note that these figures 
 				// aren't necessarily accurate for EPS
-				//displayImageInfo(info);
+				displayImageInfo(info);
 			} catch (org.apache.xmlgraphics.image.loader.ImageException e) {
 				
 				// Assume: The file format is not supported. No ImagePreloader found for /tmp/img55623.img
@@ -739,17 +739,20 @@ public abstract class BinaryPartAbstractImage extends BinaryPart {
 	}
 	
     public static void displayImageInfo(ImageInfo info) {
+    
+        // No need in Android.
+        return;
 	
-		  ImageSize size = info.getSize();
+		/*ImageSize size = info.getSize();
 		  
-		  Dimension2D dPt = size.getDimensionPt();
-		  Dimension dPx = size.getDimensionPx();
+		Dimension2D dPt = size.getDimensionPt();
+		Dimension dPx = size.getDimensionPx();
 
-		  log.debug(info.getOriginalURI() + " " + info.getMimeType() 
+		log.debug(info.getOriginalURI() + " " + info.getMimeType() 
                 + " " + Math.round(dPx.getWidth()) + "x" + Math.round(dPx.getHeight()));
 		  		  
         log.debug("Resolution:" + Math.round(size.getDpiHorizontal()) + "x" + Math.round(size.getDpiVertical()));
-        log.debug("Print size: " + Math.round(dPt.getWidth() / 72) + "\" x" + Math.round(dPt.getHeight() / 72) + "\"");
+        log.debug("Print size: " + Math.round(dPt.getWidth() / 72) + "\" x" + Math.round(dPt.getHeight() / 72) + "\"");*/
 		
 	}
 	
