@@ -15,13 +15,31 @@
 			<attribute name="optional" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry exported="true" kind="lib" path="lib/activation.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/additionnal.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/commons-lang-gump-20062009.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/istack-commons-runtime.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/txw2-20110809.jar"/>
+	<classpathentry kind="lib" path="lib/activation.jar"/>
+	<classpathentry kind="lib" path="lib/additionnal.jar"/>
+	<classpathentry kind="lib" path="lib/commons-lang-gump-20062009.jar"/>
+	<classpathentry kind="lib" path="lib/istack-commons-runtime.jar"/>
+	<classpathentry kind="lib" path="lib/txw2-20110809.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="lib/commons-io-1.3.1.jar"/>
+	<classpathentry kind="lib" path="lib/avalon-framework-api-4.3.1.jar"/>
+	<classpathentry kind="lib" path="lib/avalon-framework-impl-4.3.1.jar"/>
+	<classpathentry kind="lib" path="lib/jaxb-svg11-1.0.2.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/ae-awt"/>
+	<classpathentry kind="lib" path="lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/commons-codec-1.3.jar"/>
+	<classpathentry kind="lib" path="lib/xalan-2.7.1.jar"/>
+	<classpathentry kind="lib" path="lib/poi-3.8.jar"/>
+	<classpathentry kind="lib" path="lib/antlr-runtime-3.3.jar"/>
+	<classpathentry kind="lib" path="lib/stringtemplate-3.2.1.jar"/>
+	<classpathentry kind="lib" path="lib/jaxb-xslfo-1.0.1.jar"/>
+	<classpathentry kind="lib" path="lib/poi-scratchpad-3.8.jar"/>
+	<classpathentry kind="lib" path="lib/jaxb-xmldsig-core-1.0.0.jar"/>
+	<classpathentry kind="lib" path="lib/wmf2svg-0.9.0.jar"/>
+	<classpathentry kind="lib" path="lib/xhtmlrenderer-3.0.0.jar"/>
 	<classpathentry kind="lib" path="lib/ae-jaxb-2.2.5.jar"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre6"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/xmlgraphics-commons"/>
+	<classpathentry kind="lib" path="lib/fop-1.1.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/ae-xmlgraphics-commons"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
